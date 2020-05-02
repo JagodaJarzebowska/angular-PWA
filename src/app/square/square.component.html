@@ -1,0 +1,11 @@
+<button nbButton *ngIf="!value" class="button">
+    {{value}}
+</button>
+
+<button nbButton hero status="success" class="button" *ngIf="value =='X'">
+    {{value}}
+</button>
+
+<button nbButton hero status="info" class="button" *ngIf="value =='O'">
+    {{value}}
+</button>
